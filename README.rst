@@ -281,7 +281,7 @@ operation.
 Specifications
 ^^^^^^^^^^^^^^
 
-#.  Update the ``__getitem__()`` method to call ``self.flush()`` if
+#.  Update the ``__setitem__()`` method to call ``self.flush()`` if
     ``self.autosync`` is ``True``
 
 #.  Repeat the prior step for the ``__delitem__()`` method.
